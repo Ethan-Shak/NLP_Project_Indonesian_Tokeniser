@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# Downloaded UD GSD data (download by hand: see README, Setup)
+data/*.conllu
+
+# Third-party text used to harvest informal candidates (not redistributed; licences differ)
+data/external/
+data/candidates.tsv

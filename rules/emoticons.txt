@@ -1,0 +1,15 @@
+# Text emoticons, matched case-sensitively, one per line.
+# Faces made of eyes [:;] + optional nose (- ' '') + ( or ) mouths, e.g. :) :-( ;) :'( :(( :-))), are matched
+# by the EMOTICON family regex in patterns.tsv and need not be listed here.
+:D
+:-D
+:P
+:p
+XD
+xD
+:v
+:"
+-_-
+^_^
+T_T
+<3

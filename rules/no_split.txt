@@ -1,0 +1,24 @@
+# Words that END like a clitic (-nya, -lah, -kah, -pun, -tah) but are NOT stem + clitic.
+# Only used when clitic splitting is switched on.
+sekolah
+salah
+masalah
+telah
+olah
+kalah
+allah
+nikah
+langkah
+sudah
+rumah
+bawah
+tanah
+lebah
+mewah
+kalau
+punya
+tanya
+hanya
+karunia
+dunia
+tahun

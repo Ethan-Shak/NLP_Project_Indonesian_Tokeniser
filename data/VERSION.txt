@@ -1,0 +1,3 @@
+UniversalDependencies/UD_Indonesian-GSD
+commit: bc23d75691fd97255bbd420c4dbacd423b0ede95
+commit date: 2026-05-06T10:59:27Z

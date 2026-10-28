@@ -1,0 +1,55 @@
+## DEV half of data/raw_informal.tsv; seed=13, dev_frac=0.4. Do not re-split after annotating.
+## id	source	tags	text
+S002	x	slang,emoji	akhirnya lulus juga 🎉 makasih semuanya ya
+S004	x	emoji_mod	keluarga kecil kami lagi liburan 👨‍👩‍👧 di Bali 🇮🇩
+S009	x	elongation,emoji	yaaahhh kenapa harus begini 😭😭😭
+S015	youtube	hashtag,elongation,slang,codeswitch,emoji	Bisa yuukk sampe pucuk trending #1🔥🚀
+S016	youtube	shortform,emoji	Mntp dasar bujur Maulana smngt trus nya Maulana jgn kecewa kan semua orang yang lgi nonton..,👏👏👏👏👏👏💪👍☺️🤭🤗😇🥰
+S020	youtube	hashtag,emoji	Alhamdulillah, akhirnya bisa trending #1 di youtube. Terima kasih semua yang sudah mendukung. Semoga kita bisa terus berkarya dan menghibur. 🙏🎉
+S022	instagram	mention,emoji	@user1 sampai ke bawa mimpi🤣
+S024	instagram	shortform,emoji	smpe skrang ibu nya msi brusaha biar bisa keambil😭 😭
+S026	instagram	mention	@user3 karena semua dibuatnya karena telah bersekutu antek antek asing
+S028	instagram	mention,shortform	@user3 buat apa gw bakar klo harus di siram, biarkan dulu sisa pembakaran itu pupuk alami yang bagus sekali
+S032	instagram	hyphen,slang,codeswitch,emoji_mod	weekend ini family time di Bandung 👨‍👩‍👧‍👦 anak-anak pada seneng banget
+S035	instagram	number,shortform,slang,emoji_mod	lagu ini bikin nagih bgt ❤️‍🔥 udah gue puter 10x
+S036	instagram	slang,emoji_mod	nonton timnas lawan 🇲🇾 malam ini, semoga menang ya 🇮🇩 gas!!
+C003	indonlu-emot	hashtag,elongation,abbrev,slang,codeswitch	Btw sepanjang JL. Jakarta bahaya banget ya, banyak jalan berlubang, apakabar nih dinas PU Malang? Diem diem baee #kotamalang #savejalanraya #Malang
+C005	indonlu-emot	elongation,abbrev,shortform,slang	Kok gak tertarik? Pdhal enak loh gajinya besar, dpt tunjangan, uang pensiun dll. Kok munafik sih? Ahh bego lu jdi orang. Terus mau jadi apa dong??
+C006	nusax	number	Dengan membeli morinaga chil kid dan chil school senilai rp 500. 000, bunda akan mendapatkan voucher gopay rp 50. 000.
+C010	indonlu-emot	number,hyphen	Ketika sudah pukul 23.50 kami sudah capek dan ingin pulang karena sudah mulai ada rasa takut di hati kami masing-masing.
+C012	nusax	number,codeswitch	Dapatkan voucher pulsa rp 25.000, - untuk dua orang yang beruntung setiap harinya hanya dengan retweet bniquotes
+C014	indonlu-emot	emoticon,shortform,codeswitch	Sedih bny penulisan resep yg tidak baku sdm, sdt, ruas, sejumput, secukupnya, even biji/buah termasuk tidak baku :(
+C018	indonlu-emot	emoticon,elongation,number,shortform,slang,codeswitch	@user1 klen yg kulitnya normal skincarenya byk ga si? :( aku pgn ngejaga kulit supaya bersih tp takut knp2 klo make macem2 trs masi kecil jg wkwk :(
+C021	indonlu-emot	emoticon,slang	Mbir, udah dibilangin kan, gada orang lain yang akan memperjuangkan hidupmu, selain dirimu sendiri. Jadi gausa berharap ya, biar ga kecewa :((
+C025	indonlu-emot	hashtag,hyphen	Yanga namanya pertemanan pasti ada suka-dukanya. Dan disinilah kita belajar dan berproses bersama. akun2 akun3 #friendship_goals
+C029	indonlu-emot	hashtag,codeswitch	Oh..aqilah cinta hatiku, Oh.. #Aqilah I say I lovw You... terbaik lah
+C030	indonlu-emot	hashtag,shortform,codeswitch	Thank you for your wishes guys.. Sebagian Alhamdulillah udh kesampaian..(TerimaKasih Ya Allah) . . . . #throwback #weddingday
+C035	indonlu-emot	emoticon,elongation,number,slang,codeswitch	COBAAA MANA ADA TEMEN BEGINI YA ALLAH:( perkara gadapet 3 bulan aja dicurigain ibu,hamil ciken naget mah iya beserta happy meal-_-
+C036	indonlu-emot	elongation,shortform,slang,codeswitch	Mbuhhhhh ya, yang terdekat kena KDRT dibilang "Urusan keluarga" ndak mau bantu, perempuan speak up karena sexual harrasment dikatain. Pusink w
+C037	indonlu-emot	elongation,shortform,slang,codeswitch	HUEEE SAYANG GUAAA kok jadi melow gini sihhh love u aaahhhh cinta so much w beruntung sih bisa jumpa sama u my sweetie
+C038	indonlu-emot	elongation,number,shortform,slang,codeswitch	biasanya marketing itu yg ngejar2 cust ya? tapi gw kebalik lhooo, gw yg dikejar2 cust muluu,,,sampe kdg2 cari cara, gmn ini caranya nolak
+C039	indonlu-emot	elongation,number,shortform,slang	Ya allah aku ketularan orang2 sini Genre musik a kek giniEhh tp lucu jg sih lagunya terutama dibagian " Emang lagi manjahhh. Lagi pingin di manjahhh.
+C045	nusax	hyphen,slang	Tidak pernah bisa bicara kata-kata kasar ke pasangan walau tujuannya bercanda / memang lagi marah banget karena saking respeknya saya ke dia
+C047	indonlu-emot	number,hyphen,slang,codeswitch	Kangen ngajar privat. Kangen ngajar TPQ. Kangen rapat jam 6 pagi. Kangen agenda nginep Sabtu-Minggu. Yea. My life so flat now. Maybe I need Cheetos?
+C048	indonlu-emot	elongation,number,hyphen,slang,codeswitch	Yeeeaaayyy.. siap2 buat lebaran buat mamak klaten. Alhamdulillah.. (@ Swiss-Belboutique Yogyakarta in Gondokusuman, Daerah Istimewa Yogyakarta)
+C049	indonlu-emot	hyphen	muak saya lihat tingkah kamu lama-lama ! mirip anak-anak begitu tingkah kamu ! masa kecil suram ya
+C056	indonlu-emot	slang,codeswitch	Mudik kali ini bawaan lumayan banyak, karena banyak baju yang dulu beli di Cirebon harus dibawa pulang karena sekarang udah ga muat di badan. LOL
+C057	nusax	slang	Yang terhormat tolong dong respon pesan saya. Terima kasih
+C058	nusax	number,slang,codeswitch	Sayangnya, handphone xiaomi apa pun tidak bisa kalau cuma beli 16 gb karena software bawaannya itu gede banget
+C061	indonlu-emot	number,hyphen,slang	ini kakinya diapain sih harusnya ya ampun sakit banget nyeri. orang rumah udah pada jengah kali ya, aku aduh-aduh mulu gara2 serangan mendadak di kaki
+C062	indonlu-emot	number,slang	Inget ga??, Kita lagi nonton sambil gayem tempe mendoan, persis di depan kita ada yang joget2 asik banget kaya boneka mampang!!
+C063	indonlu-emot	emoticon,number,shortform,slang	liat abang gua digituin jd gamau punya temen nanti pas kuliah :" pdahal niatnya mau banyakin temen tp sekarang jadi takut banget bener2 takut :(
+C064	indonlu-emot	number,slang,codeswitch	Okay makin kesini makin yakin untuk segera pindah, dari kata2 bisa jadi kenyataan, bahaya nih, harus bener2 perhatiin sama omongan, takutnya kejadian.
+C070	indonlu-emot	shortform,slang,codeswitch	ANJIR YANG DI ASKMF. mau marah tp mau scroll lagi aja takut. kampret. I'm trying to sleep right here dkskdf mulai kebayang kan skrg. babihutan.
+C074	indonlu-emot	slang,codeswitch	Gue pun juga ngatain sesama perempuan, memutus rantai akan julit emang susah owislah~~ ibarate sego uwis dadi bubur~ flying money money
+C076	indonlu-emot	elongation,shortform,slang	Makanya klw niat knl baik di bls dgn niat baik ?? Lah klw di cuekin y cuekin balik lagi emng gw rugi kehilangan loe hadeh loe salah orang broo
+C077	indonlu-emot	number,shortform,slang	Akutu pengen ngeluh tapi takut gitu karena ya takut dikatain ga bersyukur ampe sempet dinyinyirin kerjaanku cuma curhat sama marah2 tp gmn ya
+C082	indonlu-emot	codeswitch	Salah satu sahabat terbaik! Teman, kakak, inspirasi untuk selalu berbuat baik dan melihat dengan prasangka baik serta selalu berbagi. Love you mabes
+C083	indonlu-emot	slang,codeswitch	Tadi aku happy sekali ke one fifteenth cofee, inet cepat, ada colokan, ngerjain inter dengan damai. Pantes pada betah di coffee shop lama lama.
+C084	nusax	control	Ratusan rumah di medan terendam banjir
+C087	indonlu-emot	emoticon,elongation,slang,codeswitch	Kuota tidak lain dan tidak bukan habis karena buka twitter :''( Kesel masternim pada maen twitter terus kenapa padaa sering upload fancam si pfft
+C088	indonlu-emot	number,slang	Selamat ulang tahun, Bosque! Sepurane telat. Semoga2 sehat selalu, dilancarkan karir & jodohnya
+C089	indonlu-emot	number,slang	oke lupain saya saja ya! urusin adek2an kamu saja gih
+C091	indonlu-emot	shortform,slang	Penyakit andalan dr jaman sma ampe skrg Pinggang encok Antara salah tidur, kurang minum air putih atau sudah tnggl hitung kalender saja
+C093	indonlu-emot	shortform	Harus berapa ribu kosa kata yang saya hafal, agar lancar membaca jurnal ini. Semoga terbiasa karena biasa. Setidaknya pernah berusaha untuk ada disni
+C094	indonlu-emot	control	rekaman hancur sudah si otak jongkok sok pintar

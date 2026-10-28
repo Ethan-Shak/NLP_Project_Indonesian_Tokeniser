@@ -1,0 +1,25 @@
+# Abbreviations that keep their final period (one per line, case-insensitive).
+# Add new ones here; no code changes needed.
+dll.
+dsb.
+dkk.
+dst.
+tsb.
+yth.
+a.n.
+u.p.
+s.d.
+jl.
+no.
+dr.
+drs.
+ir.
+prof.
+h.
+hj.
+pt.
+tbk.
+kab.
+kec.
+tgl.
+hlm.

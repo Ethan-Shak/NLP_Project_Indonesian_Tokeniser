@@ -1,0 +1,78 @@
+UniversalDependencies/UD_Indonesian-GSD
+commit: bc23d75691fd97255bbd420c4dbacd423b0ede95
+commit date: 2026-05-06T10:59:27Z
+
+=== UD Indonesian-GSD (test) ===
+whitespace baseline          sentences=557   gold_tokens=11541   P=0.8566  R=0.7414  F1=0.7949  (skipped: 0)
+regex tokenizer              sentences=557   gold_tokens=11541   P=0.9985  R=0.9969  F1=0.9977  (skipped: 0)
+
+=== Informal set (test: emoji / emoticons / shortforms / slang) ===
+whitespace baseline          sentences=79    gold_tokens=1500    P=0.8992  R=0.7967  F1=0.8448  (skipped: 0)
+regex tokenizer              sentences=79    gold_tokens=1500    P=0.9848  R=0.9940  F1=0.9894  (skipped: 0)
+
+Top 100 gold tokens the regex tokenizer MISSED (GSD test):
+    16  '.'
+     3  '-'
+     3  'No'
+     2  'Dr'
+     2  'Prof'
+     1  'bayar'
+     1  'pra'
+     1  'no'
+     1  'PT'
+     1  'Sugok'
+     1  'seong'
+     1  'Jl'
+     1  '--'
+     1  'Novo'
+     1  'Porto'
+
+Top 100 tokens it produced that are NOT in gold:
+     3  'No.'
+     2  '...'
+     2  'Prof.'
+     2  'Dr.'
+     2  '-'
+     1  'pra-bayar'
+     1  'no.'
+     1  'PT.'
+     1  'Sugok-seong'
+     1  'Jl.'
+     1  'Porto-Novo'
+
+Informal test sentences where the regex tokenizer differs from gold: 7 of 79 (first 100)
+
+  S013  # text = Saya warga +62, salut sama Thailand.... Bertanding secara gentlement, tidak guling-guling, tidak drama. Bertanding sebagai Pejantan Tangguh dengan Indonesia. Kereen. ❤❤❤❤❤
+    gold: Saya | warga | +62 | , | salut | sama | Thailand | .... | Bertanding | secara | gentlement | , | tidak | guling-guling | , | tidak | drama | . | Bertanding | sebagai | Pejantan | Tangguh | dengan | Indonesia | . | Kereen | . | ❤ | ❤ | ❤ | ❤ | ❤
+    pred: Saya | warga | + | 62 | , | salut | sama | Thailand | .... | Bertanding | secara | gentlement | , | tidak | guling-guling | , | tidak | drama | . | Bertanding | sebagai | Pejantan | Tangguh | dengan | Indonesia | . | Kereen | . | ❤ | ❤ | ❤ | ❤ | ❤
+    not in gold: + (PUNCT), 62 (NUMBER)
+
+  S038  # text = ranking makanan favorit: 1️⃣ nasi goreng 2️⃣ bakso 3️⃣ sate ayam, setuju ga?
+    gold: ranking | makanan | favorit | : | 1️⃣ | nasi | goreng | 2️⃣ | bakso | 3️⃣ | sate | ayam | , | setuju | ga | ?
+    pred: ranking | makanan | favorit | : | 1 | ️ | ⃣ | nasi | goreng | 2 | ️ | ⃣ | bakso | 3 | ️ | ⃣ | sate | ayam | , | setuju | ga | ?
+    not in gold: 1 (NUMBER), ️ (OTHER), ⃣ (OTHER), 2 (NUMBER), ️ (OTHER), ⃣ (OTHER), 3 (NUMBER), ️ (OTHER), ⃣ (OTHER)
+
+  C001  # text = Cepet sembuh sayang ku biar kita bisa main lagi sama mimi mimo biar kita bisa jalan jalan lagi I love you boo :* @user1
+    gold: Cepet | sembuh | sayang | ku | biar | kita | bisa | main | lagi | sama | mimi | mimo | biar | kita | bisa | jalan | jalan | lagi | I | love | you | boo | :* | @user1
+    pred: Cepet | sembuh | sayang | ku | biar | kita | bisa | main | lagi | sama | mimi | mimo | biar | kita | bisa | jalan | jalan | lagi | I | love | you | boo | : | * | @user1
+    not in gold: : (PUNCT), * (PUNCT)
+
+  C016  # text = makasih ya buat semangat dan do'anya :-) peluk cium {} :
+    gold: makasih | ya | buat | semangat | dan | do'anya | :-) | peluk | cium | { | } | :
+    pred: makasih | ya | buat | semangat | dan | do | ' | anya | :-) | peluk | cium | { | } | :
+    not in gold: do (WORD), ' (PUNCT), anya (WORD)
+
+  C019  # text = Hari ke enam dikota ketiga, dan sudah mulah terasa lelahnya kaki dan kangennya ngeliat mamah :/ hmm sampe lupa abon yg dibekelin kaga ke makan :D
+    gold: Hari | ke | enam | dikota | ketiga | , | dan | sudah | mulah | terasa | lelahnya | kaki | dan | kangennya | ngeliat | mamah | :/ | hmm | sampe | lupa | abon | yg | dibekelin | kaga | ke | makan | :D
+    pred: Hari | ke | enam | dikota | ketiga | , | dan | sudah | mulah | terasa | lelahnya | kaki | dan | kangennya | ngeliat | mamah | : | / | hmm | sampe | lupa | abon | yg | dibekelin | kaga | ke | makan | :D
+    not in gold: : (PUNCT), / (PUNCT)
+
+  C059  # text = kamu yang alay yah -_- kamu sih 4lay ih akoh molo sih seble :]x bagaikan menyiram luka pakai air
+    gold: kamu | yang | alay | yah | -_- | kamu | sih | 4lay | ih | akoh | molo | sih | seble | :] | x | bagaikan | menyiram | luka | pakai | air
+    pred: kamu | yang | alay | yah | -_- | kamu | sih | 4lay | ih | akoh | molo | sih | seble | : | ] | x | bagaikan | menyiram | luka | pakai | air
+    not in gold: : (PUNCT), ] (PUNCT)
+
+  C071  # text = lagu ini kayaknya lagi hits sangat ! memang enak sih ensenang just give me a reason by p!nk (at kara's rom)
+    gold: lagu | ini | kayaknya | lagi | hits | sangat | ! | memang | enak | sih | ensenang | just | give | me | a | reason | by | p!nk | ( | at | kara's | rom | )
+    pred: lagu | ini | kayaknya | lagi | hits | sangat | ! | memang | enak | sih | ensenang | just | give | me | a | reason | by | p | ! | nk | ( | at | kara's | rom | )
+    not in gold: p (WORD), ! (PUNCT), nk (WORD)
